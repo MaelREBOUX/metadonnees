@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Thesaurus Rennes Métropole Applications
+  version 1.0 du 23/06/2016
+-->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/" >
+  <skos:ConceptScheme rdf:about="http://www.metropole.rennes.fr/thesaurus">
+    <dc:title>RM Applications v 1.0</dc:title>
+    <dc:description>Thesaurus Rennes Métropole utilisé pour savoir quelle(s) application(s) utilise(nt) une ressource.</dc:description>
+    <dc:creator>
+      <foaf:Organization>
+        <foaf:name>Rennes Métropole</foaf:name>
+      </foaf:Organization>
+    </dc:creator>
+    <dcterms:issued>2016-06-23</dcterms:issued>
+    <dcterms:modified>2016-06-23</dcterms:modified>
+  </skos:ConceptScheme>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/antennes_relais"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/api_rva"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/automatisation_plans_pvci"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/carto_police"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/cimetieres_rennais"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/circuits_de_balayage"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/application_web_circulation"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/rencircul"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/dechets_malins"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/eclairage_public"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/elections"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/evolutions_topren"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/geodeci"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/geojardins"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/geonetwork"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/georennesmetropole"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/formulaires_internet_secteurs_ccas"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/geosport"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/gestion_bdd_generales_2d3d"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/gestion_cimetieres"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/gestion_relation_citoyen"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/ondes_et_antennes"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/plan_deplacement_entreprise"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/croiseplu"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/croiseplu_rennes"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/portage_application_diffusion"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/portage_extension_carto"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/portage_outil_de_localisation"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/recensement"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/reglement_local_de_publicite"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/rva_gestion"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/rva_signalement"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/sinc_v2"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/sites_et_organismes"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/sites_potentiellement_pollues"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/topstation_gima"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/urbavue"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/caches_referentiels_geoserver"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/antennes_relais/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Antennes Relais.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">antennes_relais</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Antennes Relais</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/api_rva/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application API RVA.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">api_rva</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">API RVA</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/automatisation_plans_pvci/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Automatisation Plans PVCI.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">automatisation_plans_pvci</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Automatisation Plans PVCI</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/carto_police/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Carto Police.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">carto_police</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Carto Police</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/cimetieres_rennais/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Cimetières rennais.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">cimetieres_rennais</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Cimetières rennais</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/circuits_de_balayage/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Circuits de balayage.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">circuits_de_balayage</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Circuits de balayage</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/application_web_circulation/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Application web circulation.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">application_web_circulation</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Application web circulation</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/rencircul/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application RenCircul.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">rencircul</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">RenCircul</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/dechets_malins/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Déchets malins.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">dechets_malins</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Déchets malins</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/eclairage_public/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Eclairage Public.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">eclairage_public</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Eclairage Public</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/elections/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Elections.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">elections</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Elections</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/evolutions_topren/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Evolutions TopRen.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">evolutions_topren</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Evolutions TopRen</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/geodeci/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application GéoDECI.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">geodeci</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">GéoDECI</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/geojardins/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application GéoJardins.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">geojardins</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">GéoJardins</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/geonetwork/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application GeoNetwork.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">geonetwork</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">GeoNetwork</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/georennesmetropole/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application GéoRennesMétropole.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">georennesmetropole</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">GéoRennesMétropole</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/formulaires_internet_secteurs_ccas/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Formulaires internet secteurs CCAS.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">formulaires_internet_secteurs_ccas</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Formulaires internet secteurs CCAS</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/geosport/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Géosport.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">geosport</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Géosport</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/gestion_bdd_generales_2d3d/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Gestion BDD générales 2D3D.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">gestion_bdd_generales_2d3d</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Gestion BDD générales 2D3D</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/gestion_cimetieres/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Gestion Cimetières.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">gestion_cimetieres</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Gestion Cimetières</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/gestion_relation_citoyen/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Gestion Relation Citoyen.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">gestion_relation_citoyen</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Gestion Relation Citoyen</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/ondes_et_antennes/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Ondes et antennes.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">ondes_et_antennes</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Ondes et antennes</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/plan_deplacement_entreprise/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Plan Déplacement Entreprise.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">plan_deplacement_entreprise</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Plan Déplacement Entreprise</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/croiseplu/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application CroisePLU.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">croiseplu</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">CroisePLU</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/croiseplu_rennes/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application CroisePLU Rennes.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">croiseplu_rennes</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">CroisePLU Rennes</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/portage_application_diffusion/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Portage application Diffusion.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">portage_application_diffusion</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Portage application Diffusion</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/portage_extension_carto/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Portage extension Carto.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">portage_extension_carto</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Portage extension Carto</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/portage_outil_de_localisation/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Portage outil de localisation.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">portage_outil_de_localisation</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Portage outil de localisation</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/recensement/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Recensement.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">recensement</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Recensement</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/reglement_local_de_publicite/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Règlement Local de Publicité.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">reglement_local_de_publicite</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Règlement Local de Publicité</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/rva_gestion/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application RVA Gestion.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">rva_gestion</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">RVA Gestion</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/rva_signalement/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application RVA Signalement.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">rva_signalement</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">RVA Signalement</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/sinc_v2/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application SINC v2.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">sinc_v2</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">SINC v2</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/sites_et_organismes/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Sites et organismes.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">sites_et_organismes</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Sites et organismes</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/sites_potentiellement_pollues/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Sites potentiellement pollués.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">sites_potentiellement_pollues</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Sites potentiellement pollués</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/topstation_gima/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application TopStation Gima.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">topstation_gima</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">TopStation Gima</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/urbavue/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Urbavue.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">urbavue</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Urbavue</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/caches_referentiels_geoserver/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Caches référentiels GeoServer.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">caches_referentiels_geoserver</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Caches référentiels GeoServer</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

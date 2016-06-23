@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thesaurusdc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:iaaaterm="http://iaaa.cps.unizar.es/iaaaterms/" xmlns:iso="http://www.isotc211.org/19115/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fileID="rm_services" xml:lang="fr">
+ <dc:title>Organisation des services de la Ville de Rennes et de Rennes Métropole</dc:title>
+ <dcterms:alternative>rm_services</dcterms:alternative>
+ <dc:creator>Service SIG Rennes Métropole - Maël REBOUX</dc:creator>
+ <dc:subject>ORGANISATION</dc:subject>
+ <dc:description>Thesaurus décrivant l'organigramme de Rennes Métropole et de la Ville de Rennes afin d'identifier le service responsable d'une ressource</dc:description>
+ <dcterms:created>2013-08-01</dcterms:created>
+ <dcterms:hasVersion>1.1</dcterms:hasVersion>
+ <dc:format>SKOS</dc:format>
+ <dc:identifier>http://www.metropole.rennes.fr/thesaurus/sig/rm_services</dc:identifier>
+ <iso:MD_Metadata.dateStamp>2013-08-01</iso:MD_Metadata.dateStamp>
+ <iso:MD_Metadata.contact>Maël REBOUX 
+Communauté d'agglomération de Rennes Métropole 
+Direction Stratégie et Rayonnement Métropolitain
+Service SIG mutualisé avec la Ville de Rennes
+
+4, avenue Henri Fréville
+CS 20723
+35207 RENNES cedex 2 
+02 99 86 63 71 / poste 35 63 71 
+m.reboux@agglo-rennesmetropole.fr 
+</iso:MD_Metadata.contact>
+
+
+
+
+
+
+
+<dc:language>fr</dc:language>
+</thesaurusdc>

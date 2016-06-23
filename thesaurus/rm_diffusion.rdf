@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Thesaurus Rennes Métropole diffusion
+  version 1.2 du 30/12/2015
+-->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/" >
+  <skos:ConceptScheme rdf:about="http://www.metropole.rennes.fr/thesaurus">
+    <dc:title>RM Diffusion v 1.2</dc:title>
+    <dc:description>Thesaurus Rennes Métropole utilisé pour préciser des éléments de diffusion ou d'accès aux ressources.</dc:description>
+    <dc:creator>
+      <foaf:Organization>
+        <foaf:name>Rennes Métropole</foaf:name>
+      </foaf:Organization>
+    </dc:creator>
+    <dcterms:issued>2014-02-12</dcterms:issued>
+    <dcterms:modified>2015-12-30</dcterms:modified>
+  </skos:ConceptScheme>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/diffusionpasdestatut/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/opendata/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/opendatapotentiel/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/diffusionrestreinte/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/donneestarifees/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/accesrestreint/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/diffusioninterdite/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/archive/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/geobretagne/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/georennesmetropole/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/urbavue/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/diffusionpasdestatut/">
+    <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">pas de statut de diffusion</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les fiches de métadonnées et donc les données sans statut de diffusion c'est-à-dire les données pour lesquelles aucune décision de diffusion n'a été prise. Ces données ne sont donc pas diffusables en l'état etles informations de distribution de cette métadonnée ne sont donc pas à prendre en compte.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/opendatapotentiel/">
+    <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">données ouvertes potentielles</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les fiches de métadonnées et donc les données potentiellement publiables en open data.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/opendata/">
+    <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">données ouvertes</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les fiches de métadonnées et donc les données publiées en open data.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/diffusionrestreinte/">
+    <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">diffusion restreinte</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les fiches de métadonnées et donc les données diffusables uniquement sous conditions. Leur diffusion est donc restreinte.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/donneestarifees/">
+    <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">données tarifées</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les fiches de métadonnées et donc les données soumises à une tarification. Leur diffusion est donc restreinte.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/accesrestreint/">
+    <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">accès restreint</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les fiches de métadonnées et donc les données qui sont en accès restreint au sein du SIG de Rennes Métropole. Il s'agit des données concernées par l'article L124-4-I-2 du code de l’environnement.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/diffusioninterdite/">
+    <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">diffusion interdite</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les fiches de métadonnées et donc les données pour lesquelles une diffusion ou une rediffusion à des tiers (prestataire, grand-public, etc) est interdite.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/archive/">
+    <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">archive</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les fiches de métadonnées et donc les données qui ont été archivées. Ces données ne sont plus en accès libre dans le SIG.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/geobretagne/">
+    <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">geobretagne</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet de connaître les fiches de métadonnées publiées sur GéoBretagne.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/georennesmetropole/">
+    <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">georennesmetropole</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet de connaître les données publiées sur GéoRennesMétropole.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion/urbavue/">
+    <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_diffusion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">urbavue</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet de connaître les données utilisées par l'application Urbavue.</skos:scopeNote>
+  </rdf:Description>
+</rdf:RDF>

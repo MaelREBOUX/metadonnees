@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Thesaurus Rennes Métropole services
+  version 1.1 du 30/12/2015
+-->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/" >
+  <skos:ConceptScheme rdf:about="http://www.metropole.rennes.fr/thesaurus">
+    <dc:title>RM Services v 1.1</dc:title>
+    <dc:description>Thesaurus Rennes Métropole utilisé pour identifier les gestionnaires des données.</dc:description>
+    <dc:creator>
+      <foaf:Organization>
+        <foaf:name>Rennes Métropole</foaf:name>
+      </foaf:Organization>
+    </dc:creator>
+    <dcterms:issued>2014-02-12</dcterms:issued>
+    <dcterms:modified>2014-02-12</dcterms:modified>
+  </skos:ConceptScheme>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgfcg/">
+    <skos:prefLabel xml:lang="fr">vdr.dgfcg</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Direction générale Finances et contrôle de gestion (DGFCG)</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.a/">
+    <skos:scopeNote xml:lang="fr">Direction des Rues Assainissement (DR A)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dr.a</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.dee/">
+    <skos:scopeNote xml:lang="fr">Direction Education Enfance (DEE)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">vdr.dgpcs.dee</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpcs/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat.sig/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat/"/>
+    <skos:scopeNote xml:lang="fr">Service Systèmes Information géographique (SIG)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">rm.dgpdd.distrat.sig</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgcult/">
+    <skos:scopeNote xml:lang="fr">Direction générale de la Culture (DGCult)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">rm.dgcult</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dep.hab/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dep/"/>
+    <skos:prefLabel xml:lang="fr">rm.dgau.dep.hab</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Service Habitat (DEP Hab)</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpcs/">
+    <skos:prefLabel xml:lang="fr">rm.dgpcs</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:scopeNote xml:lang="fr">Direction générale Proximité Cohésion sociale (DGPCS)</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpcs.cspv/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dj.mo/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Direction des Jardins Maîtrise d'Ouvrage (DJ MO)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dj/"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dj.mo</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgcom/">
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgcom.icom/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">rm.dgcom</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:scopeNote xml:lang="fr">Direction générale de l'Information et Communication (DGCom)</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib.ap/">
+    <skos:prefLabel xml:lang="fr">rm.dgepib.ap</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Service Architecture et patrimoine (DGEPIB AP)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat.saunum/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Service Aménagement et Usages du numérique (SAUNum)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">rm.dgpdd.distrat.saunum</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dsph.spst/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgss.dsph.spst</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Service Promotion Santé Territoires (SPST)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dsph/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpcs.cspv/">
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpcs/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Mission Cohésion Sociale et Politique de la Ville (CSPV)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">rm.dgpcs.cspv</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib.di.cop/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Service Conduite d'Opération (DI COP)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">rm.dgepib.di.cop</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib.di/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib.di.moe/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Service Maitrîse d'oeuvre (DI MOe)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">rm.dgepib.di.moe</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib.di/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Action territoriale Tranquillité publique Prestations Administratives (AcTer)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">vdr.dgpcs.acter</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter.dpap/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter.spdm/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter.dpmdp/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter.actionco/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter.dq/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dao/">
+    <skos:prefLabel xml:lang="fr">rm.dgau.dao</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dao.oa/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dao.qau/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dao.ds/"/>
+    <skos:scopeNote xml:lang="fr">Direction de l'Aménagement Opérationnel (DAO)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dj.moe/">
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dj.moe</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dj/"/>
+    <skos:scopeNote xml:lang="fr">Direction des Jardins Maîtrise d'œuvre (DJ MOe)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu/">
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu.stu/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu.smu/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">rm.dgsu</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu.svdm/"/>
+    <skos:scopeNote xml:lang="fr">Direction Générale des Services Urbains (DGSU)</skos:scopeNote>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu.smit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.deres/">
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd/"/>
+    <skos:scopeNote xml:lang="fr">Direction Economie, Recherche et Enseignement Supérieur (DERES)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.deres.sct/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.deres.efip/"/>
+    <skos:prefLabel xml:lang="fr">rm.dgpdd.deres</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.deres.esri/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs/">
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.dvaj/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:scopeNote xml:lang="fr">Direction générale Proximité Cohésion sociale (DGPCS)</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.dee/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.ds/"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgpcs</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat.sripe/">
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">rm.dgpdd.distrat.sripe</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Service Relations internationales et partenariats européens (SRIPE)</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.gts/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr/"/>
+    <skos:scopeNote xml:lang="fr">Direction des Rues Gestion Trafic Sécurité (DR GTS)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dr.gts</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.spe/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:scopeNote xml:lang="fr">Direction des Rues – Service Public Energies</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dr.spe</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr/">
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.pf/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.gts/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.spe/"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dr</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.a/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.epsl/"/>
+    <skos:scopeNote xml:lang="fr">Direction des Rues (DR)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.m/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.pat/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.dvaj/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs/"/>
+    <skos:scopeNote xml:lang="fr">Direction Vie associative, jeunesse (DVAJ)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">vdr.dgpcs.dvaj</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgs/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgs</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Direction générale des Services de la Ville de Rennes</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.pat/">
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:scopeNote xml:lang="fr">Direction des rues Patrimoine (DR Pat)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dr.pat</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.pf/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Direction des Rues Propreté et Fêtes (DR PF)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dr.pf</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgrh/">
+    <skos:scopeNote xml:lang="fr">Direction générale des Ressources Humaines (DGRH)</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">rm.dgrh</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter.actionco/">
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgpcs.acter.actionco</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:scopeNote xml:lang="fr">Mission action commercial, Commerce de proximité (Action co)</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dao.oa/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">rm.dgau.dao.oa</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Service Opérations d'aménagement (DAO OA)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dao/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dj/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dj.exp/"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dj</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dj.mo/"/>
+    <skos:scopeNote xml:lang="fr">Direction des Jardins (DJ)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dj.moe/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgfsi/">
+    <skos:prefLabel xml:lang="fr">rm.dgfsi</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:scopeNote xml:lang="fr">Direction Générale Finances Systèmes d'Information (DGFSI)</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter.dpap/">
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter/"/>
+    <skos:scopeNote xml:lang="fr">Direction des Prestations Administratives à la Population (DPAP)</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgpcs.acter.dpap</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat.s2e/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Service Environnement Energie (S2E)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat/"/>
+    <skos:prefLabel xml:lang="fr">rm.dgpdd.distrat.s2e</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dpe/">
+    <skos:scopeNote xml:lang="fr">Direction de la Petite Enfance (DPE)</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgss.dpe</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc/">
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dbc</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc.cop/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc.mp/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc.parcauto/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Direction des Bâtiments communaux (DBC)</skos:scopeNote>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc.moe/"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib/">
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib.ap/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib.di/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">rm.dgepib</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Direction générale de l'Espace public, de l'Ingénierie et des Bâtiments (DGEPIB)</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dep/">
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dep.eu/"/>
+    <skos:scopeNote xml:lang="fr">Direction des Etudes et de la Programmation (DEP)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dep.hab/"/>
+    <skos:prefLabel xml:lang="fr">rm.dgau.dep</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dep.fon/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.epsl/">
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dr.epsl</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr/"/>
+    <skos:scopeNote xml:lang="fr">Direction des Rues Eclairage Public et Signalisation Lumineuse (DR EPSL)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dj.exp/">
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dj/"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dj.exp</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Direction des Jardins Exploitation (DJ Exp)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.ds/">
+    <skos:scopeNote xml:lang="fr">Direction des Sports (DS)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgpcs.ds</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat.spedd/">
+    <skos:scopeNote xml:lang="fr">Service Prospective, Evaluation Développement Durable (SPEDD)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">rm.dgpdd.distrat.spedd</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dsph/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss/"/>
+    <skos:scopeNote xml:lang="fr">Direction Santé Publique Handicap (DSPH)</skos:scopeNote>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dsph.sse/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dsph.spst/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dsph.ssenv/"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgss.dsph</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter.spdm/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgpcs.acter.spdm</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Service Prévention de la Délinquance, Prévention (SPDM)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu.smu/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu/"/>
+    <skos:scopeNote xml:lang="fr">Service Mobilité Urbaine</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">rm.dgsu.smu</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter.dpmdp/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgpcs.acter.dpmdp</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Direction de la police municipale et du domaine public (DPMP)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dep.fon/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dep/"/>
+    <skos:scopeNote xml:lang="fr">Service Foncier (DEP Fon)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">rm.dgau.dep.fon</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu.svdm/">
+    <skos:prefLabel xml:lang="fr">rm.dgsu.svdm</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Service Valorisation des Déchets Ménagers</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.deres.efip/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.deres/"/>
+    <skos:prefLabel xml:lang="fr">rm.dgpdd.deres.efip</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Service Entreprises, Filières et Promotion économique (EFIP)</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc.parcauto/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Direction des Bâtiments communaux Parc Auto (DBC Parc auto)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dbc.parcauto</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.deres.esri/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.deres/"/>
+    <skos:scopeNote xml:lang="fr">Service Enseignement Supérieur Recherche Innovation (ESRI)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">rm.dgpdd.deres.esri</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu.stu/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">rm.dgsu.stu</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu/"/>
+    <skos:scopeNote xml:lang="fr">Service Transports Urbains</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgs/ ">
+    <skos:prefLabel xml:lang="fr">rm.dgs</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:scopeNote xml:lang="fr">Direction générale des Services de Rennes Métropole</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib/">
+    <skos:scopeNote xml:lang="fr">Direction générale de l'Espace public, de l'Ingénierie et des Bâtiments (DGEPIB)</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dj/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat/">
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat.saunum/"/>
+    <skos:scopeNote xml:lang="fr">Direction Stratégie et Rayonnement Métropolitain (DirStrat)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat.sig/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat.spedd/"/>
+    <skos:prefLabel xml:lang="fr">rm.dgpdd.distrat</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat.sripe/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat.s2e/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dao.qau/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dao/"/>
+    <skos:scopeNote xml:lang="fr">Mission Qualité Architecturale et urbaine (DAO QAU)</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">rm.dgau.dao.qau</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dep.eu/">
+    <skos:scopeNote xml:lang="fr">Service Etudes Urbaines (DEP EU)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dep/"/>
+    <skos:prefLabel xml:lang="fr">rm.dgau.dep.eu</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter.dq/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgpcs.acter.dq</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs.acter/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Direction de Quartier (DQ)</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd/">
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.deres/"/>
+    <skos:scopeNote xml:lang="fr">Direction générale Prospective et Développement durable (DGPDD)</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">rm.dgpdd</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.distrat/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu.smit/">
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu/"/>
+    <skos:prefLabel xml:lang="fr">rm.dgsu.smit</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:scopeNote xml:lang="fr">Service Métro et Investissement Transport</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.deres.sct/">
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd.deres/"/>
+    <skos:prefLabel xml:lang="fr">rm.dgpdd.deres.sct</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Service Commerce - Tourisme (SCT)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iaaa.unizar.es/thesaurus/rm_services">
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgcult/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgfsi/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgs/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgs/ "/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpcs/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgcom/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgrh/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgsu/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgpdd/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgfcg/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgpcs/"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dhs/">
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:scopeNote xml:lang="fr">Direction Habitat Social (DHS)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss/"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgss.dhs</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dsph.sse/">
+    <skos:prefLabel xml:lang="fr">vdr.dgss.dsph.sse</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dsph/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:scopeNote xml:lang="fr">Service Santé Enfance (SSE)</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dao.ds/">
+    <skos:scopeNote xml:lang="fr">Service Droit des Sols (DAO DS)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dao/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">rm.dgau.dao.ds</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr.m/">
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dr/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:scopeNote xml:lang="fr">Direction des Rues - Maintenance Voirie et Ouvrage d'Art</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dr.m</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc.cop/">
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dbc.cop</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Direction des Bâtiments communaux Conduite d'opération - Programmation (DBC Cop)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc.mp/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc/"/>
+    <skos:scopeNote xml:lang="fr">Direction des Bâtiments communaux Maintenance Patrimoine (DBC MP)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dbc.mp</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Direction générale Solidarité et Santé (DGSS)</skos:scopeNote>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dpe/"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgss</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dsph/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dhs/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau/">
+    <skos:scopeNote xml:lang="fr">Direction générale de l'Aménagement urbain (DGAU)</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dep/"/>
+    <skos:prefLabel xml:lang="fr">rm.dgau</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgau.dao/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc.moe/">
+    <skos:scopeNote xml:lang="fr">Direction des Bâtiments communaux Maîtrise d'Oeuvre (DBC MOe)</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgepib.dbc/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgepib.dbc.moe</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgcom.icom/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">rm.dgcom.icom</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Service de l'Innovation numérique (Icom)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgcom/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib.di/">
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib.di.moe/"/>
+    <skos:narrower rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib.di.cop/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Direction des Infrastructures (DI)</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">rm.dgepib.di</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dsph.ssenv/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="fr">Service Santé Environnement (SSEnv)</skos:scopeNote>
+    <skos:broader rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/vdr.dgss.dsph/"/>
+    <skos:inScheme rdf:resource="http://iaaa.unizar.es/thesaurus/rm_services"/>
+    <skos:prefLabel xml:lang="fr">vdr.dgss.dsph.ssenv</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>
