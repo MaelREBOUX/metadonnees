@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
   Thesaurus Rennes Métropole Applications
-  version 1.0 du 23/06/2016
+  version 1.0 du 30/09/2016
 -->
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -18,7 +18,7 @@
       </foaf:Organization>
     </dc:creator>
     <dcterms:issued>2016-06-23</dcterms:issued>
-    <dcterms:modified>2016-06-23</dcterms:modified>
+    <dcterms:modified>2016-09-30</dcterms:modified>
   </skos:ConceptScheme>
   <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
@@ -38,6 +38,7 @@
     <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/geojardins"/>
     <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/geonetwork"/>
     <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/georennesmetropole"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/scripts_georennesmetropole"/>
     <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/formulaires_internet_secteurs_ccas"/>
     <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/geosport"/>
     <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/gestion_bdd_generales_2d3d"/>
@@ -60,6 +61,7 @@
     <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/topstation_gima"/>
     <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/urbavue"/>
     <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/caches_referentiels_geoserver"/>
+    <skos:hasTopConcept rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/cartodp"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/antennes_relais/">
   <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
@@ -171,6 +173,13 @@
     <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application GéoRennesMétropole.</skos:scopeNote>
     <skos:prefLabel xml:lang="fr">georennesmetropole</skos:prefLabel>
     <skos:altLabel xml:lang="fr">GéoRennesMétropole</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/scripts_georennesmetropole/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par les scripts qui préparent les données destinées à GéoRennesMétropole.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">scripts_georennesmetropole</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Scripts GéoRennesMétropole</skos:altLabel>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/formulaires_internet_secteurs_ccas/">
@@ -325,6 +334,13 @@
     <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application Caches référentiels GeoServer.</skos:scopeNote>
     <skos:prefLabel xml:lang="fr">caches_referentiels_geoserver</skos:prefLabel>
     <skos:altLabel xml:lang="fr">Caches référentiels GeoServer</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/cartodp/">
+  <skos:inScheme rdf:resource="http://www.metropole.rennes.fr/thesaurus/sig/rm_applications/"/>
+    <skos:scopeNote xml:lang="fr">Ce mot-clé permet d'identifier les données utilisées par l'application de gestion des emplacements des marchés.</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">cartodp</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Carto DP</skos:altLabel>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
 </rdf:RDF>

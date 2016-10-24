@@ -9,7 +9,7 @@
  <dc:identifier>http://www.metropole.rennes.fr/thesaurus/sig/rm_applications</dc:identifier>
  <dcterms:hasVersion>1.0</dcterms:hasVersion>
  <dcterms:created>2016-06-23</dcterms:created>
- <iso:MD_Metadata.dateStamp>2016-06-23</iso:MD_Metadata.dateStamp>
+ <iso:MD_Metadata.dateStamp>2016-09-30</iso:MD_Metadata.dateStamp>
  <iso:MD_Metadata.contact>Maël REBOUX 
 Communauté d'agglomération de Rennes Métropole 
 Direction Stratégie et Rayonnement Métropolitain
@@ -19,7 +19,7 @@ Service SIG mutualisé avec la Ville de Rennes
 CS 20723
 35207 RENNES cedex 2 
 02 99 86 63 71 / poste 35 63 71 
-m.reboux@agglo-rennesmetropole.fr 
+m.reboux@rennesmetropole.fr 
 </iso:MD_Metadata.contact>
 <dc:language>fr</dc:language>
 </thesaurusdc>
