@@ -1,6 +1,10 @@
 # metadonnees
 
- ensemble de scripts python qui va permettre de mettre à jour en masse des mots-clés via un accès à la base de données
+Ensemble de ressources utiles à l'administration ou l'utilisation du catalogue des données géographiques :
+ - scripts python
+ - process XSL
+ - imagettes
+ - etc
  
  ces outils sont réservés à l'administrateur du catalogue
  
