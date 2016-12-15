@@ -21,7 +21,7 @@
   <xsl:param name="CharacterString">gco:CharacterString</xsl:param>
 
   <xsl:variable name="defaultUuid"   select="gmd:MD_Metadata/gmd:fileIdentifier/gco:CharacterString" />
-  <xsl:param    name="defaultnewURL">http://portail.sig.rennesmetropole.fr/geonetwork/srv/fre/catalog.search#/metadata/</xsl:param>
+  <xsl:param    name="defaultnewURL">http://portail.sig.rennesmetropole.fr/geonetwork/srv/fre/xml.metadata.get?uuid=</xsl:param>
   <xsl:param    name="workspace" select ="''"  />
 
   <xsl:template match="@* | node()"  >
